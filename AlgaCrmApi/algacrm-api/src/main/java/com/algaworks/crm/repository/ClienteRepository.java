@@ -5,8 +5,6 @@ import org.springframework.stereotype.Repository;
 import com.algaworks.crm.model.Cliente;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, Long> {
-
-	
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {	
 	
 }
